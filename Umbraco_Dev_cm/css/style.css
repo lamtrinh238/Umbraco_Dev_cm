@@ -1,2 +1,128 @@
 /* Go crazy with your own styles here */
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 958px) {
+  .container {
+    max-width: 920px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 958px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .well {
+    border-bottom: 0;
+  }
+}
+
+.well {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.well .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+h2 {margin-top:0px;}
+
+.center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}
+
+.button-label{
+    margin-right:30px;
+}
+
+.form-control{
+    font-size:80%;
+}
+
+.main-content{
+    font-size:1.6em;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Advising-Form label{
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-title {
+    font-weight:300;
+    font-size:180%;
+}
+
+.form-header{
+    margin-bottom:25px;
+}
+
+.warning-text{
+    font-size:80%;
+    text-align:left;
+    line-height:170%;
+}
+
+.help-block{
+    font-size:55%;
+    text-align:left;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.field-validation-error {
+    color:red;
+    font-weight:bold;
+    font-size:60%;
+    display:block;
+    margin-top:5px;
+}
