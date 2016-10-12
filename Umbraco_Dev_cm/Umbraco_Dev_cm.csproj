@@ -351,6 +351,8 @@
     <Content Include="css\style.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.min.js" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Umbraco\Actions\delete.aspx" />
